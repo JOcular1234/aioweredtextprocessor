@@ -2,27 +2,30 @@
 @import "tailwindcss/preflight";
 
 body{
-    padding: 0;
     background-color: #1E3A8A;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .parent-nav{
     position: relative;
 }
 nav {
     background-color: #1E3A8A;
-    position: relative;
 }
 .container-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
-   
 }
 .main-container{
     margin: 50px auto;
     padding: 20px;
+    border: 1px solid;
 }
 .container-nav span{
     color: #f71f1f;
