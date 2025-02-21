@@ -126,7 +126,7 @@ export default function App() {
   return (
     <>
       <NavBar />
-      <div className="main-container flex flex-col items-center justify-center bg-gray-100 p-4">
+      <div className="main-container flex flex-col items-center justify-center h-screen bg-gray-100 p-4">
         <p className="txt1 sm:text-3xl font-bold text-center mb-4 lg:text-6xl md:text-4xl">
           AI-Powered <span> Text</span> Processor
         </p>
